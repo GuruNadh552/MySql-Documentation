@@ -18,14 +18,16 @@
 - <a href="https://github.com/GuruNadh552/MySql-Documentation/blob/main/Joins.md" class="button danger"> **CLICK Here** </a> - For Joins in Sql
 
 ## Select Statement :
-- select * from tablename;
+``` 
+    select * from tablename;
 	- which will retrives all instances from the table tablename
-- select column1,column2 from tablename;
+    select column1,column2 from tablename;
 	- which will used to retrieve the instances of the specific column from the table
-- SElect Distinct column from the tablename;
+    SElect Distinct column from the tablename;
 	- it will retrive the instance without duplicates from the table
-- Select count(DISTINCT column) from the table;
+    Select count(DISTINCT column) from the table;
 	- it will retrive the count of the instance without duplicates
+```
 ------------------------------------------------------------------------------------------
 ## Where Statement :
 which is used to filter the records in the database 
