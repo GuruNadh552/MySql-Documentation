@@ -15,4 +15,4 @@
 - <a href="#" class="button danger"> **CREATE INDEX**</a> - creates an index (search key)
 - <a href="#" class="button danger"> **DROP INDEX**</a>- deletes an index
 <hr>
-- <a href="#" class="button danger"> **CLICK Here** </a> - For Joins in Sql
+- <a href="https://github.com/GuruNadh552/MySql-Documentation/blob/main/Joins.md" class="button danger"> **CLICK Here** </a> - For Joins in Sql
