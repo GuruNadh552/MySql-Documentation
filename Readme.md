@@ -29,7 +29,6 @@
    Select count(DISTINCT column) from the table;
    - it will retrive the count of the instance without duplicates
 ```
-------------------------------------------------------------------------------------------
 ## Where Statement :
 #### Syntax : 
 which is used to filter the records in the database 
@@ -47,7 +46,6 @@ Select * from table where condition1 AND condition2;
 Select * from table where condition1 OR condition2;
 Select * from table where NOT condition1;
 ```
--------------------------------------------------------------------------------------------
 ## ORDER BY
 which is used to sort the records based on the column in ascending (default) or descending order.
 #### Syntax :
@@ -55,7 +53,6 @@ which is used to sort the records based on the column in ascending (default) or 
 Select * from table ORder By (column1);
 ```
 
--------------------------------------------------------------------------------------------------
 ## Insert Into 
 which is used to insert an instance to the table in the database
 #### Syntax :
@@ -63,7 +60,6 @@ which is used to insert an instance to the table in the database
 Insert into table values("value1","value2");
 ```
 
---------------------------------------------------------------------------------------------------
 ## Update and Set
 Which is used to update the values in the table based on the condition
 #### Syntax :
@@ -72,7 +68,6 @@ Which is used to update the values in the table based on the condition
 	set column1 = value
 	where column = "some";
 ```
----------------------------------------------------------------------------------------------------
 ## NULL value 
 - checking whether the field contains a value or not
 #### Syntax :
@@ -80,14 +75,12 @@ Which is used to update the values in the table based on the condition
 	Select * from table Where column_1 is null;
 	Select * from table Where column_1 is NOT null;
 ```
---------------------------------------------------------------------------------------------------
 ## DELETE
 The DELETE statement is used to delete existing records in a table.
 #### Syntax :
 ```
 	DELETE from table where condition;
 ```
---------------------------------------------------------------------------------------------------
 ## MIN and MAX 
 To return the minimum and maximum value from the table 
 #### Syntax :
@@ -95,7 +88,6 @@ To return the minimum and maximum value from the table
 	Select MIN(column1) as Minimum from table;
 	Select MAX(column1) as MaximumValue from table;
 ```
---------------------------------------------------------------------------------------------------
 ## COUNT() , AVG() , SUM()
 are the functions which will return the count , average and sum of the specific column in table
 #### Syntax :
@@ -104,7 +96,6 @@ are the functions which will return the count , average and sum of the specific 
 	Select AVG(column) from table;
 	Select SUM(column) from table;
 ```
---------------------------------------------------------------------------------------------------
 ## LIKE 
 The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
 There are two wildcards often used in conjunction with the LIKE operator:
