@@ -105,8 +105,12 @@ are the functions which will return the count , average and sum of the specific 
 	Select SUM(column) from table;
 ```
 --------------------------------------------------------------------------------------------------
-
------------------------------------------------------------------------------------------------------------------
+## LIKE 
+The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+There are two wildcards often used in conjunction with the LIKE operator:
+- The percent sign (%) represents zero, one, or multiple characters
+- The underscore sign (_) represents one, single character
+- 
 | LIKE Operator			| Description								        |
 |-------------------------------|-------------------------------------------------------------------------------|
 | WHERE columnName LIKE 'a%'	| Finds any values that start with "a"						|
@@ -116,3 +120,20 @@ are the functions which will return the count , average and sum of the specific 
 | WHERE columnName LIKE 'a_%'	| Finds any values that start with "a" and are at least 2 characters in length	|
 | WHERE columnName LIKE 'a__%'| Finds any values that start with "a" and are at least 3 characters in length	|
 | WHERE ColumnName LIKE 'a%o'	| Finds any values that start with "a" and ends with "o"			|
+
+#### Syntax
+	Select * from table where columnname LIKE '%a';
+## IN Operator
+- The IN operator allows you to specify multiple values in a WHERE clause.
+
+- The IN operator is a shorthand for multiple OR conditions.
+
+#### Syntax
+	SELECT column_name(s)
+	FROM table_name
+	WHERE column_name IN (value1, value2, ...);
+
+	SELECT column_name(s)
+	FROM table_name
+	WHERE column_name IN (SELECT STATEMENT);
+
